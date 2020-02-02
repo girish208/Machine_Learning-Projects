@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="room_type <= 0.5\nmse = 0.099\nsamples = 25083\nvalue = 2.071", fillcolor="#e58139a4"] ;
+1 [label="neighbourhood_group <= 1.5\nmse = 0.065\nsamples = 13234\nvalue = 2.254", fillcolor="#e58139e4"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="neighbourhood <= 211.5\nmse = 0.053\nsamples = 5149\nvalue = 2.188", fillcolor="#e58139cd"] ;
+1 -> 2 ;
+3 [label="mse = 0.052\nsamples = 4213\nvalue = 2.167", fillcolor="#e58139c6"] ;
+2 -> 3 ;
+4 [label="mse = 0.049\nsamples = 936\nvalue = 2.278", fillcolor="#e58139ec"] ;
+2 -> 4 ;
+5 [label="neighbourhood_group <= 2.5\nmse = 0.068\nsamples = 8085\nvalue = 2.296", fillcolor="#e58139f2"] ;
+1 -> 5 ;
+6 [label="mse = 0.062\nsamples = 6723\nvalue = 2.333", fillcolor="#e58139ff"] ;
+5 -> 6 ;
+7 [label="mse = 0.059\nsamples = 1362\nvalue = 2.113", fillcolor="#e58139b3"] ;
+5 -> 7 ;
+8 [label="neighbourhood_group <= 1.5\nmse = 0.057\nsamples = 11849\nvalue = 1.866", fillcolor="#e581395d"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="room_type <= 1.5\nmse = 0.043\nsamples = 5442\nvalue = 1.814", fillcolor="#e581394b"] ;
+8 -> 9 ;
+10 [label="mse = 0.04\nsamples = 5153\nvalue = 1.826", fillcolor="#e581394f"] ;
+9 -> 10 ;
+11 [label="mse = 0.042\nsamples = 289\nvalue = 1.597", fillcolor="#e5813900"] ;
+9 -> 11 ;
+12 [label="neighbourhood_group <= 2.5\nmse = 0.065\nsamples = 6407\nvalue = 1.91", fillcolor="#e581396d"] ;
+8 -> 12 ;
+13 [label="mse = 0.065\nsamples = 4096\nvalue = 1.984", fillcolor="#e5813986"] ;
+12 -> 13 ;
+14 [label="mse = 0.038\nsamples = 2311\nvalue = 1.781", fillcolor="#e5813940"] ;
+12 -> 14 ;
+}
