@@ -20,7 +20,7 @@ I have worked on with two files
 1. In this [Notebook](https://github.com/girish208/Machine_Learning-Projects/blob/master/Covid-19/covid-19-eda-and-deep-analysis-using-visualization.ipynb) EDA on dataset and trying to find current underlying patterns of viral spread across countries and using Ensemble methods to do regression. Some of the features of this dataset are Interactive and hence recommended to use [NB viewer](https://nbviewer.jupyter.org/).
 2. In this [Notebook](https://github.com/girish208/Machine_Learning-Projects/blob/master/Covid-19/time-series-model.ipynb) I have tried to use Time Series Analysis tools such as Holt, Exponential Smoothening and ARIMA to do forecasting. This file also has some interactive features and recommended to use [NB viewer](https://nbviewer.jupyter.org/)
 
-
+3. **Covid-19 Dashboard**: This [Notebook](https://github.com/girish208/Machine_Learning-Projects/blob/master/Covid-19/covid19.ipynb) I have built a real time dashboard to keep a tap on Covid-19 Cases. Please use NBviewer to view it.
 ```python
 
 ```
